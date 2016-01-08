@@ -1,0 +1,25 @@
+#header{
+
+  margin: auto;
+  
+  text-align: center;
+
+}
+body {
+    background-image: url("img/background.png");
+    color: white;
+}
+#dropdown{
+  display: inline-block;
+  width: 30%;
+}
+#img{
+  float: left;
+}
+.img2{
+  clear: right;
+}
+#sidebar{
+  width: 200px,
+  
+}
