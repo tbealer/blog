@@ -1,9 +1,13 @@
 #header{
 
   margin: auto;
-  
   text-align: center;
 
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 body {
     background-image: url("img/background.png");
@@ -13,13 +17,45 @@ body {
   display: inline-block;
   width: 30%;
 }
-#img{
+
+aside{
+  float:left;
+  width: 200;
+  border: 10 none blue;
+  background: black;
+  height: 100%;
+
+
+
+}
+#main{
+  float: right;
+
+}
+#main .wasleft{
   float: left;
+  padding: 50px;
+
+
+  
 }
-.img2{
-  clear: right;
+#main .wasright{
+  float: right;
+  height: 200px;
+  width: 200px;
+  border: none;
+  
 }
-#sidebar{
-  width: 200px,
+#main .isleft{
+  float: left;
+  padding: 50px;
+
+
+  
+}
+#main .isright{
+  float: right;
+  height: 200px;
+  width: 200px;
   
 }
