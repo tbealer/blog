@@ -9,6 +9,18 @@ ul{
   margin: 0;
   padding: 0;
 }
+#nav{
+  display: block;
+  float:left;
+}
+li a{
+  display: block;
+  width: 60px;
+}
+li a:hover{
+  background-color: #555;
+  color: white;
+}
 body {
     background-image: url("img/background.png");
     color: white;
@@ -35,6 +47,7 @@ aside{
 #main .wasleft{
   float: left;
   padding: 50px;
+  
 
 
   
@@ -42,7 +55,7 @@ aside{
 #main .wasright{
   float: right;
   height: 200px;
-  width: 200px;
+  width: 300px;
   border: none;
   
 }
@@ -51,11 +64,12 @@ aside{
   padding: 50px;
 
 
+
   
 }
 #main .isright{
   float: right;
   height: 200px;
-  width: 200px;
+  width: 300px;
   
 }
